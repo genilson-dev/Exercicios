@@ -1,3 +1,34 @@
+Criar um novo repositório e conectar ao GitHub
+Se deseja criar um projeto local e depois vinculá-lo ao GitHub, siga estas etapas:
+
+a) Inicializar o repositório local
+Abra o projeto no VS Code ou crie um novo diretório.
+
+No terminal do VS Code (atalho: `Ctrl+``), execute:
+
+bash
+git init
+Isso inicializa um repositório Git local.
+
+b) Adicionar arquivos e fazer o primeiro commit
+Adicione os arquivos com:
+
+bash
+git add .
+Faça o primeiro commit:
+
+bash
+git commit -m "Primeiro commit"
+c) Conectar ao repositório remoto
+Adicione a URL do repositório remoto:
+
+bash
+git remote add origin https://github.com/genilson-dev/Exercicios.git
+Envie os arquivos locais para o GitHub:
+
+bash
+git push -u origin main
+Nota: Substitua main pelo nome da branch, se necessário.
 Calculadora de Soma
 Este é um simples programa em JavaScript que realiza a soma de dois números e exibe o resultado no console.
 
@@ -22,3 +53,4 @@ No terminal, execute o comando:
 
 bash
 npx jest
+
